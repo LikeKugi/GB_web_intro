@@ -1,0 +1,10 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+.main__title {
+  text-align: center;
+}
+
+/*# sourceMappingURL=Main.module.css.map */

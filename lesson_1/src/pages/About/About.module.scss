@@ -1,0 +1,10 @@
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+  &__title {
+    text-align: center;
+  }
+  &__paragraph {
+    text-align: justify;
+  }
+}

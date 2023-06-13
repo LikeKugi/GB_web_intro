@@ -1,0 +1,13 @@
+.nav {
+  padding: 15px 0;
+}
+.nav__link {
+  text-decoration: none;
+  color: darkslategray;
+  position: relative;
+}
+.nav__link:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=Nav.module.css.map */

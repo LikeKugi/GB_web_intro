@@ -1,0 +1,11 @@
+.nav {
+  padding: 15px 0;
+  &__link {
+    text-decoration: none;
+    color: darkslategray;
+    position: relative;
+    &:not(:last-of-type) {
+      margin-right: 15px;
+    }
+  }
+}

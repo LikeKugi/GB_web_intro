@@ -1,0 +1,12 @@
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.about__title {
+  text-align: center;
+}
+.about__paragraph {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=About.module.css.map */
