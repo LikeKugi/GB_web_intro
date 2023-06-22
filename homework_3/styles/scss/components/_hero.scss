@@ -1,0 +1,32 @@
+.hero {
+  padding: 3.8rem 0 12rem;
+  &__wrapper {
+    background-image: url("../../../assets/img/hero/banner.png");
+    background-repeat: no-repeat;
+    background-position: 97% 25%;
+    background-size: 60.5rem 37rem;
+  }
+  &__content {
+    padding-top: 6rem;
+    max-width: 52.5rem;
+  }
+  &__title {
+    margin-bottom: 2rem;
+  }
+  &__text {
+    margin-bottom: 3.5rem;
+    max-width: 47rem;
+    @extend %medium;
+    @extend %medium-normal;
+    color: $text-light;
+  }
+  &__btn {
+    &-wrapper {
+      padding-top: 0.3rem;
+      display: flex;
+    }
+    &:not(:last-of-type) {
+      margin-right: 2.7rem;
+    }
+  }
+}

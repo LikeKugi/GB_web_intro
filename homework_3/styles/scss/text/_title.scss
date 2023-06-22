@@ -1,0 +1,30 @@
+.title {
+  @extend %bold;
+  &__accent {
+    display: inline-block;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      left: -7%;
+      top: 4%;
+      content: '';
+      width: 112%;
+      height: 7.6rem;
+      border-bottom-left-radius: 32rem 7.6rem;
+      border-bottom-right-radius: 32rem 7.6rem;
+      border-top-left-radius: 32rem 7.6rem;
+      border-top-right-radius: 32rem 7.6rem;
+      border: 1px solid $main-color;
+    }
+
+  }
+  &--main {
+    @extend %title-big;
+  }
+  &--section {
+    @extend %title-norm;
+  }
+}
+
+

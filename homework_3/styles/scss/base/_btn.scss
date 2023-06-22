@@ -1,0 +1,46 @@
+.btn {
+  outline: none;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: color .2s ease-in, background-color .2s ease-in;
+  &--color{
+    &-regular {
+      background-color: $main-color;
+      color: $white;
+      &:hover {
+        background-color: $main-light;
+        color: $main-dark;
+      }
+    }
+    &-transparent {
+      background-color: transparent;
+      color: $text-lighter;
+      &:hover {
+        background-color: $main-light;
+        color: $main-dark;
+      }
+    }
+  }
+
+  &--text{
+    &-small {
+      @extend %small;
+    }
+  }
+
+  &--small {
+    padding: 1.2rem 2.7rem;
+  }
+  &--normal {
+    padding: 1.5rem 3rem;
+  }
+  &--medium {
+    padding: 1.5rem 3.5rem;
+  }
+  &--watch {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+  }
+}

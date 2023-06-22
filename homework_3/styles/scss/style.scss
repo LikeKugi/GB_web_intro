@@ -1,5 +1,6 @@
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-              }
+@import "variables/colors";
+@import "text/index-text";
+@import "base/index-base";
+
+@import "components/index-components";
+

@@ -1,0 +1,25 @@
+.link {
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+    text-decoration: none;
+  }
+  &--dark {
+    color: $darker;
+    &:hover {
+      color: $main-dark;
+    }
+    &:active{
+      color: $main-color;
+    }
+  }
+  &--small {
+    @extend %semibold;
+    @extend %smaller;
+  }
+  &--current {
+    color: $main-color;
+  }
+}
+
+
+

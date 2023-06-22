@@ -1,0 +1,12 @@
+.nav {
+  margin-right: 3.4rem;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    list-style-type: none;
+    &:not(:last-of-type) {
+      margin-right: 3.6rem;
+    }
+  }
+}
