@@ -150,6 +150,10 @@ body, input, button {
   font-weight: bold;
 }
 
+.solution__text {
+  font-weight: normal;
+}
+
 .hero__text {
   font-weight: 500;
 }
@@ -160,6 +164,10 @@ body, input, button {
 
 .btn--text-small {
   font-size: 1.5rem;
+}
+
+.solution__text {
+  font-size: 1.6rem;
 }
 
 .hero__text {
@@ -343,6 +351,38 @@ html {
 .brand__item {
   margin: 0 2.4rem;
   list-style-type: none;
+}
+
+.solution {
+  background-color: #fafafa;
+  background-image: url("../../../assets/img/solutions/bg2.png");
+  background-size: cover;
+  background-position: center;
+}
+.solution__wrapper {
+  display: flex;
+  align-items: center;
+}
+.solution__img {
+  margin: -2.8rem -7rem;
+}
+.solution__content {
+  max-width: 52rem;
+  width: 100%;
+}
+.solution__title {
+  margin-bottom: 2rem;
+}
+.solution__text {
+  margin-bottom: 3.5rem;
+  color: #888888;
+}
+
+.card {
+  background-color: #ffffff;
+}
+.card:hover {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=style.css.map */

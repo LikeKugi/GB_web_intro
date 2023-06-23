@@ -1,3 +1,26 @@
 .solution {
-
+  background-color: $background-light;
+  background-image: url("../../../assets/img/solutions/bg2.png");
+  background-size: cover;
+  background-position: center;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__img {
+    margin: -2.8rem -7rem;
+  }
+  &__content {
+    max-width: 52rem;
+    width: 100%;
+  }
+  &__title {
+    margin-bottom: 2rem;
+  }
+  &__text {
+    margin-bottom: 3.5rem;
+    @extend %regular;
+    @extend %normal;
+    color: $text-light;
+  }
 }
