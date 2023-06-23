@@ -1,0 +1,14 @@
+.btn {
+  padding: 1.5rem 3rem;
+  color: $light;
+  background-color: $contrast;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in;
+  &:hover {
+    background-color: $light;
+    color: $contrast;
+  }
+  &:active {
+    color: $background-darker;
+  }
+}

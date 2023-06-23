@@ -1,0 +1,17 @@
+.learning {
+  padding-top: 15.7rem;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__box {
+    &-text {
+      max-width: 49rem;
+      width: 100%;
+
+    }
+    &-img {
+      margin-right: 6.8rem;
+    }
+  }
+}
