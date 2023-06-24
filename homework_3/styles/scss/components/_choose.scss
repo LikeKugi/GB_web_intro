@@ -1,0 +1,21 @@
+.choose {
+  padding-top: 9.2rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  background-color: $background-light;
+  &__title {
+    margin-bottom: 2rem;
+    @extend %bold;
+    @extend %title-norm;
+  }
+  &__paragraph {
+    max-width: 68.5rem;
+    margin: 0 auto 5.4rem;
+    @extend %regular;
+    @extend %normal;
+    color: $text-main;
+  }
+  &__cards {
+    display: flex;
+  }
+}

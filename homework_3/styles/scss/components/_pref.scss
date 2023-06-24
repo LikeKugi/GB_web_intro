@@ -1,0 +1,11 @@
+.pref {
+  padding: 10rem 0;
+  &__wrapper {
+    display: flex;
+  }
+  &__card {
+    &:not(:last-of-type) {
+      margin-right: 3rem;
+    }
+  }
+}

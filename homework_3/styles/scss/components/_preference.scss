@@ -1,0 +1,43 @@
+.preference {
+  max-width: 37rem;
+  width: 100%;
+  padding: 4rem 3rem 2.5rem;
+  &__title {
+    margin-bottom: 1.7rem;
+    @extend %bold;
+    @extend %medium-larger;
+  }
+  &__paragraph {
+    margin-bottom: 2.5rem;
+    @extend %regular;
+    @extend %small;
+    color: $text-main;
+  }
+  &__link {
+    @extend %bold;
+    @extend %tiny;
+  }
+  &__box {
+    &-img {
+      width: 7rem;
+      height: 7rem;
+      margin-bottom: 2.5rem;
+      padding: 2rem;
+      border-radius: 1.5rem;
+    }
+  }
+  &__icon {
+    width: 100%;
+  }
+}
+.box {
+  &-grow {
+    background-color: $transparent-grow;
+  }
+  &-leads {
+    background-color: $transparent-leads;
+  }
+  &-sales {
+    background-color: $transparent-sales;
+  }
+}
