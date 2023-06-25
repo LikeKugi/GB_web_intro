@@ -1,0 +1,18 @@
+.plans {
+  padding-top: 8.7rem;
+  padding-bottom: 13rem;
+  background-color: $background-light;
+  &__title {
+    text-align: center;
+    @extend %bold;
+    @extend %title-norm;
+  }
+  &__text {
+    text-align: center;
+    @extend %regular;
+    @extend %normal;
+  }
+  &__offers {
+    padding-top: 8.6rem;
+  }
+}

@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__wrapper {
+    display: flex;
+    width: 40rem;
+  }
+}
+
+.input {
+  padding: 1.6rem 2rem;
+  background-color: $gray-lighter;
+  color: $text-main;
+  @extend %tiny;
+  @extend %medium;
+  border: none;
+  width: 50%;
+  &--left {
+    border-radius: 5rem 0 0 5rem;
+  }
+  &--right {
+    border-radius: 0 5rem 5rem 0;
+  }
+}

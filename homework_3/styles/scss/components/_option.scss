@@ -1,0 +1,34 @@
+.option {
+  padding: 1.5rem 3rem;
+  display: flex;
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2.8rem;
+    width: 100%;
+    max-width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+  }
+  &__title {
+    margin-bottom: 0.8rem;
+    @extend %bold;
+    @extend %medium-normal;
+  }
+  &__text {
+    @extend %regular;
+    @extend %small;
+    color: $text-main;
+  }
+}
+
+.social {
+  background-color: $transparent-grow;
+}
+.email {
+  background-color: $transparent-leads;
+}
+.optimization {
+  background-color: $transparent-sales;
+}

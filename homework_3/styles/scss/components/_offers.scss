@@ -1,0 +1,42 @@
+.offers {
+  display: flex;
+  justify-content: space-between;
+  &__offer {
+    padding: 6.3rem 8rem 7rem;
+    max-width: 37rem;
+    width: 100%;
+    text-align: center;
+    &:hover {
+      transform: scaleY(1.1);
+      & .offers__title {
+        color: $main-color;
+      }
+    }
+  }
+  &__price {
+    sub, sup {
+      @extend %medium;
+      @extend %medium-small;
+    }
+  }
+  &__number {
+    @extend %medium;
+    @extend %bigger;
+  }
+  &__title {
+    @extend %medium;
+    @extend %medium-larger;
+    transition: color .2s ease-in-out;
+  }
+  &__text {
+    color: $text-main;
+    @extend %normal;
+    @extend %medium;
+    &:not(:last-of-type) {
+      margin-bottom: 2rem;
+    }
+    &:last-of-type {
+      margin-bottom: 3rem;
+    }
+  }
+}

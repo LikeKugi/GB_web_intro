@@ -1,0 +1,38 @@
+.stats {
+  padding: 10rem 0;
+  &__wrapper {
+    padding: 4rem 6.5rem 4rem 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid $gray-lighter;
+  }
+  &__item {
+    text-align: center;
+  }
+  &__title {
+    @extend %bigger;
+    @extend %bold;
+    color: $text-main;
+  }
+  &__text {
+    @extend %semibold;
+    @extend %medium-small;
+    color: $text-main;
+  }
+  &__divider {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+}
+
+.red {
+  background-color: $red;
+}
+.green {
+  background-color: $green;
+}
+.yellow {
+  background-color: $yellow;
+}

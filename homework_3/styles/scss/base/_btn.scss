@@ -13,6 +13,14 @@
         color: $main-dark;
       }
     }
+    &-reverse {
+      color: $main-color;
+      background-color: $main-light;
+      &:hover {
+        color: $white;
+        background-color: $main-dark;
+      }
+    }
     &-transparent {
       background-color: transparent;
       color: $text-lighter;
@@ -37,6 +45,9 @@
   }
   &--medium {
     padding: 1.5rem 3.5rem;
+  }
+  &--big {
+    padding: 1rem 6.3rem;
   }
   &--watch {
     display: flex;

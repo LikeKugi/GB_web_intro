@@ -1,0 +1,32 @@
+.seo {
+  background-color: $white;
+  background-image: url("../../../assets/img/seo/dribbble_illustration_v3 1.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  &__wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__content {
+    max-width: 60rem;
+    width: 100%;
+    padding-top: 10.7rem;
+  }
+  &__title {
+    margin-bottom: 1.9rem;
+    @extend %bold;
+    @extend %title-norm;
+  }
+  &__text {
+    margin-bottom: 6rem;
+    @extend %regular;
+    @extend %normal;
+    color: $text-main;
+  }
+  &__option {
+    &:not(:last-of-type) {
+      margin-bottom: 3rem;
+    }
+  }
+}
+

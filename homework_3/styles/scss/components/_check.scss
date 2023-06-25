@@ -1,0 +1,27 @@
+.check {
+  &__wrapper {
+    display: flex;
+  }
+  &__content {
+    padding: 13.8rem 0;
+    max-width: 57rem;
+    width: 100%;
+  }
+  &__title {
+    @extend %title-norm;
+    @extend %bold;
+  }
+  &__text {
+    margin-bottom: 5.5rem;
+    max-width: 46rem;
+    color: $text-main;
+    @extend %normal;
+    @extend %regular;
+  }
+  &__img {
+    position: relative;
+    z-index: -1;
+    max-width: 800px;
+    margin: -4rem -5rem;
+  }
+}
