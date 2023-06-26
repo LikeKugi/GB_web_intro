@@ -1,0 +1,28 @@
+.experts {
+  background-color: $white;
+  padding-top: 8.6rem;
+  padding-bottom: 10rem;
+  &__title {
+    margin-bottom: 1.5rem;
+    @extend %bold;
+    @extend %title-norm;
+    text-align: center;
+  }
+  &__text {
+    margin: 0 auto;
+    max-width: 46.5rem;
+    @extend %medium;
+    @extend %normal;
+    color: $text-main;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  &__wrapper {
+    display: flex;
+  }
+  &__card {
+    &:not(:last-of-type) {
+      margin-right: 3rem;
+    }
+  }
+}

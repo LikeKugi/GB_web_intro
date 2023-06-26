@@ -1,0 +1,53 @@
+.expert {
+  max-width: 27rem;
+  width: 100%;
+  padding: 5rem 7rem;
+  text-align: center;
+  border: 1px solid $gray-lighter;
+
+  &__photo {
+    margin-bottom: 1.4rem;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 13rem;
+  }
+  &__title {
+    @extend %semibold;
+    @extend %medium-normal;
+    transition: color .2s ease-in-out;
+  }
+  &__text {
+    margin-bottom: 1.7rem;
+    @extend %medium;
+    @extend %tiny-bigger;
+    color: $text-light;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+
+    & svg path {
+      fill: $text-lighter;
+    }
+    &:hover {
+      background-color: $main-color;
+      & svg path {
+        fill: $white;
+      }
+    }
+  }
+
+  &:hover {
+    .expert__title {
+      color: $main-color;
+    }
+  }
+}

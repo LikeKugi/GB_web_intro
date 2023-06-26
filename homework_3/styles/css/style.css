@@ -142,11 +142,11 @@ body, input, button {
   font-family: Gilroy, sans-serif;
 }
 
-.stats__text, .link--small {
+.expert__title, .stats__text, .link--small {
   font-weight: 600;
 }
 
-.plans__title, .check__title, .stats__title, .option__title, .seo__title, .cards__title, .choose__title, .preference__link, .preference__title, .title {
+.experts__title, .plans__title, .check__title, .stats__title, .option__title, .seo__title, .cards__title, .choose__title, .preference__link, .preference__title, .title {
   font-weight: bold;
 }
 
@@ -154,12 +154,16 @@ body, input, button {
   font-weight: normal;
 }
 
-.offers__text, .offers__title, .offers__number, .offers__price sub, .offers__price sup, .input, .hero__text {
+.expert__text, .experts__text, .offers__text, .offers__title, .offers__number, .offers__price sub, .offers__price sup, .input, .hero__text {
   font-weight: 500;
 }
 
 .input, .preference__link {
   font-size: 1.1rem;
+}
+
+.expert__text {
+  font-size: 1.3rem;
 }
 
 .link--small {
@@ -170,7 +174,7 @@ body, input, button {
   font-size: 1.5rem;
 }
 
-.offers__text, .plans__text, .check__text, .seo__text, .choose__paragraph, .solution__text {
+.experts__text, .offers__text, .plans__text, .check__text, .seo__text, .choose__paragraph, .solution__text {
   font-size: 1.6rem;
 }
 
@@ -178,7 +182,7 @@ body, input, button {
   font-size: 1.8rem;
 }
 
-.option__title, .hero__text {
+.expert__title, .option__title, .hero__text {
   font-size: 2rem;
 }
 
@@ -194,7 +198,7 @@ body, input, button {
   font-size: 6rem;
 }
 
-.plans__title, .check__title, .seo__title, .choose__title, .title--section {
+.experts__title, .plans__title, .check__title, .seo__title, .choose__title, .title--section {
   font-size: 4.5rem;
 }
 
@@ -250,7 +254,6 @@ html {
 .link--current {
   color: #f25822;
 }
-
 .btn {
   outline: none;
   border: none;
@@ -682,6 +685,74 @@ html {
 }
 .offers__text:last-of-type {
   margin-bottom: 3rem;
+}
+
+.experts {
+  background-color: #ffffff;
+  padding-top: 8.6rem;
+  padding-bottom: 10rem;
+}
+.experts__title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.experts__text {
+  margin: 0 auto;
+  max-width: 46.5rem;
+  color: #666666;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.experts__wrapper {
+  display: flex;
+}
+.experts__card:not(:last-of-type) {
+  margin-right: 3rem;
+}
+
+.expert {
+  max-width: 27rem;
+  width: 100%;
+  padding: 5rem 7rem;
+  text-align: center;
+  border: 1px solid #eeeeee;
+}
+.expert__photo {
+  margin-bottom: 1.4rem;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 13rem;
+}
+.expert__title {
+  transition: color 0.2s ease-in-out;
+}
+.expert__text {
+  margin-bottom: 1.7rem;
+  color: #888888;
+}
+.expert__links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.expert__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+}
+.expert__link svg path {
+  fill: #AAAAAA;
+}
+.expert__link:hover {
+  background-color: #f25822;
+}
+.expert__link:hover svg path {
+  fill: #ffffff;
+}
+.expert:hover .expert__title {
+  color: #f25822;
 }
 
 /*# sourceMappingURL=style.css.map */
