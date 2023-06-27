@@ -28,7 +28,7 @@
     width: 41rem;
   }
   &__btn {
-    :not(:last-of-type) {
+    &:not(:last-of-type) {
       margin-right: 2rem;
     }
   }

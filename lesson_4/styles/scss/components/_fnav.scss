@@ -1,0 +1,18 @@
+.fnav {
+  &__list {
+
+  }
+  &__item {
+    list-style-type: none;
+    &:not(:last-of-type) {
+      margin-bottom: 2.4rem;
+    }
+  }
+  &__link {
+    font-size: 1.4rem;
+    & img {
+      display: inline-block;
+      margin-right: 0.6rem;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.about {
+  padding: 13rem 0 13rem;
+
+  &__wrapper {
+    display: grid;
+    grid-template-areas:
+            "a b c"
+            "d d e"
+            "d d f";
+    gap: 3rem;
+  }
+
+  &__item {
+    padding: 3rem;
+    background-color: $background-lighter;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  &__img {
+    margin: 0 auto;
+    display: block;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  &__text {
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+}
+
+.small {
+
+  &--1 {
+    grid-area: a;
+  }
+  &--2 {
+    grid-area: b;
+  }
+  &--3 {
+    grid-area: c;
+  }
+  &--4 {
+    grid-area: e;
+  }
+  &--5 {
+    grid-area: f;
+  }
+
+  & img {
+    width: 30%;
+  }
+
+  & *:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.big {
+  grid-area: d;
+
+  & img {
+    width: 40%;
+  }
+
+  & *:not(:last-child) {
+    margin-bottom: 6rem;
+  }
+}

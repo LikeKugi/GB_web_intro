@@ -1,0 +1,32 @@
+.clients {
+  padding: 13rem 0 22rem;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__box {
+    &-text {
+      max-width: 55rem;
+    }
+    &-img {
+      max-width: 57.3rem;
+      width: 100%;
+      background-image: url("../../../assets/img/clients/about3 1.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+    }
+  }
+  &__title {
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  &__text {
+    font-weight: 600;
+    font-size: 1.6rem;
+    &:not(:last-of-type) {
+      margin-bottom: 2rem;
+    }
+  }
+}
